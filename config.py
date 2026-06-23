@@ -28,7 +28,7 @@ load_dotenv()
 # ============================================================
 # OPENAI_API_KEY: 阿里云 API Key（请替换为你的真实 Key）
 # OPENAI_BASE_URL: 阿里云百炼 API 地址
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-b8c968414a3e40118f23bf8bfa6b2bf2")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1")
 
 # ============================================================
